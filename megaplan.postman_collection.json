@@ -1,0 +1,369 @@
+{
+	"info": {
+		"_postman_id": "d7e1c82b-1f40-4e12-af73-0c06700fdc20",
+		"name": "megaplan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29718825"
+	},
+	"item": [
+		{
+			"name": "https://radio-shop.megaplan.by/api/v3/offer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "radio-shop.megaplan.by"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "cookie",
+						"value": "ACCOUNT_URL=https%3A%2F%2Fradio-shop.megaplan.by; _ga=GA1.1.1598834249.1694455984; carrotquest_device_guid=80042670-7c96-4668-9746-fce304cbeda7; carrotquest_realtime_services_transport=wss; carrotquest_uid=779532189195831895; carrotquest_auth_token=user.779532189195831895.28190-57745fbb6640dc43107ea95658.9eec894f2f5a250abdd9029cc05c151109766f29b95e053a; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; SID2=1695319391_37heb8s2aomt7trjj8x7s; carrotquest_jwt_access=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdHQiOiJhY2Nlc3MiLCJleHAiOjE2OTUzMjM3MTUsImlhdCI6MTY5NTMyMDExNSwianRpIjoiZjMxYTBmMDhlZjAzNDE1OWFiZDk1MDY1MThmMDU0OWYiLCJhY3QiOiJ3ZWJfdXNlciIsImN0cyI6MTY5NTMyMDExNSwicm9sZXMiOlsidXNlci4kYXBwX2lkOjI4MTkwLiR1c2VyX2lkOjc3OTUzMjE4OTE5NTgzMTg5NSJdLCJhcHBfaWQiOjI4MTkwLCJ1c2VyX2lkIjo3Nzk1MzIxODkxOTU4MzE4OTV9.WaQWnTCjNRE7CrxDhF5XbHUyj6STG7DupvdcEdCItok; TEST_COOKIE=650c924ad2be4; COOKIEID2=1695322708_hv47nwxj1apyxqg5v1zve; ACCOUNTS_INFO=%7B%22accounts%22%3A%7B%22radio-shop.megaplan.by%22%3A%7B%22lastActivityTime%22%3A1695322710%2C%22schemeAndHost%22%3A%22https%3A%5C%2F%5C%2Fradio-shop.megaplan.by%22%7D%7D%7D; carrotquest_session=il5j92p4z913v09sz4uurlexjerlgpcl; carrotquest_session_started=1; _ga_0DR8DD66PT=GS1.1.1695320113.3.1.1695323192.0.0.0"
+					},
+					{
+						"key": "referer",
+						"value": "https://radio-shop.megaplan.by/offers/filter/all"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-megaplan-app-type",
+						"value": "Web"
+					},
+					{
+						"key": "x-time-zone",
+						"value": "-10800"
+					}
+				],
+				"url": {
+					"raw": "https://radio-shop.megaplan.by/api/v3/offer",
+					"protocol": "https",
+					"host": [
+						"radio-shop",
+						"megaplan",
+						"by"
+					],
+					"path": [
+						"api",
+						"v3",
+						"offer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://radio-shop.megaplan.by/api/v3/offer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authority",
+						"value": "radio-shop.megaplan.by"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "ACCOUNT_URL=https%3A%2F%2Fradio-shop.megaplan.by; _ga=GA1.1.1598834249.1694455984; carrotquest_device_guid=80042670-7c96-4668-9746-fce304cbeda7; carrotquest_realtime_services_transport=wss; carrotquest_uid=779532189195831895; carrotquest_auth_token=user.779532189195831895.28190-57745fbb6640dc43107ea95658.9eec894f2f5a250abdd9029cc05c151109766f29b95e053a; SID2=1695319391_37heb8s2aomt7trjj8x7s; TEST_COOKIE=650c924ad2be4; COOKIEID2=1695322708_hv47nwxj1apyxqg5v1zve; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_jwt_access=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdHQiOiJhY2Nlc3MiLCJleHAiOjE2OTU0ODAwOTcsImlhdCI6MTY5NTQ3NjQ5NywianRpIjoiOWYxZGQyY2RlNmI0NGVkZjhmYzM5YTRkYmQ4NGUzOGIiLCJhY3QiOiJ3ZWJfdXNlciIsImN0cyI6MTY5NTQ3NjQ5Nywicm9sZXMiOlsidXNlci4kYXBwX2lkOjI4MTkwLiR1c2VyX2lkOjc3OTUzMjE4OTE5NTgzMTg5NSJdLCJhcHBfaWQiOjI4MTkwLCJ1c2VyX2lkIjo3Nzk1MzIxODkxOTU4MzE4OTV9.cb3pAwmjAv6RgLuzvjtb1P5uhI0orv0Su7xxa-j01cQ; ACCOUNTS_INFO=%7B%22accounts%22%3A%7B%22radio-shop.megaplan.by%22%3A%7B%22lastActivityTime%22%3A1695477676%2C%22schemeAndHost%22%3A%22https%3A%5C%2F%5C%2Fradio-shop.megaplan.by%22%7D%7D%7D; carrotquest_session=5ji5htahlurbjpos0gkf23h8v1fuub70; carrotquest_session_started=1; _ga_0DR8DD66PT=GS1.1.1695477593.5.1.1695477909.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://radio-shop.megaplan.by"
+					},
+					{
+						"key": "referer",
+						"value": "https://radio-shop.megaplan.by/offers/filter/all"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-megaplan-app-type",
+						"value": "Web"
+					},
+					{
+						"key": "x-time-zone",
+						"value": "-10800"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"contentType\": \"Offer\",\n    \"tax\": {\n        \"id\": \"2\",\n        \"contentType\": \"Tax\"\n    },\n    \"type\": \"product\",\n    \"attaches\": [],\n    \"price\": {\n        \"contentType\": \"Money\",\n        \"value\": 100,\n        \"currency\": \"USD\"\n    },\n    \"name\": \"Редактировать название товара\",\n    \"article\": \"АРТ1\",\n    \"unit\": {\n        \"id\": \"12\",\n        \"contentType\": \"Unit\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://radio-shop.megaplan.by/api/v3/offer/3395",
+					"protocol": "https",
+					"host": [
+						"radio-shop",
+						"megaplan",
+						"by"
+					],
+					"path": [
+						"api",
+						"v3",
+						"offer",
+						"3395"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://radio-shop.megaplan.by/api/v3/offer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "radio-shop.megaplan.by"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "ACCOUNT_URL=https%3A%2F%2Fradio-shop.megaplan.by; _ga=GA1.1.1598834249.1694455984; carrotquest_device_guid=80042670-7c96-4668-9746-fce304cbeda7; carrotquest_realtime_services_transport=wss; carrotquest_uid=779532189195831895; carrotquest_auth_token=user.779532189195831895.28190-57745fbb6640dc43107ea95658.9eec894f2f5a250abdd9029cc05c151109766f29b95e053a; SID2=1695319391_37heb8s2aomt7trjj8x7s; TEST_COOKIE=650c924ad2be4; COOKIEID2=1695322708_hv47nwxj1apyxqg5v1zve; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_jwt_access=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdHQiOiJhY2Nlc3MiLCJleHAiOjE2OTU0ODAwOTcsImlhdCI6MTY5NTQ3NjQ5NywianRpIjoiOWYxZGQyY2RlNmI0NGVkZjhmYzM5YTRkYmQ4NGUzOGIiLCJhY3QiOiJ3ZWJfdXNlciIsImN0cyI6MTY5NTQ3NjQ5Nywicm9sZXMiOlsidXNlci4kYXBwX2lkOjI4MTkwLiR1c2VyX2lkOjc3OTUzMjE4OTE5NTgzMTg5NSJdLCJhcHBfaWQiOjI4MTkwLCJ1c2VyX2lkIjo3Nzk1MzIxODkxOTU4MzE4OTV9.cb3pAwmjAv6RgLuzvjtb1P5uhI0orv0Su7xxa-j01cQ; ACCOUNTS_INFO=%7B%22accounts%22%3A%7B%22radio-shop.megaplan.by%22%3A%7B%22lastActivityTime%22%3A1695477676%2C%22schemeAndHost%22%3A%22https%3A%5C%2F%5C%2Fradio-shop.megaplan.by%22%7D%7D%7D; carrotquest_session=5ji5htahlurbjpos0gkf23h8v1fuub70; carrotquest_session_started=1; _ga_0DR8DD66PT=GS1.1.1695477593.5.1.1695478225.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://radio-shop.megaplan.by"
+					},
+					{
+						"key": "referer",
+						"value": "https://radio-shop.megaplan.by/offers/filter/all"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-megaplan-app-type",
+						"value": "Web"
+					},
+					{
+						"key": "x-time-zone",
+						"value": "-10800"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"contentType\": \"Offer\",\n    \"tax\": {\n        \"id\": \"2\",\n        \"contentType\": \"Tax\"\n    },\n    \"type\": \"product\",\n    \"attaches\": [],\n    \"price\": {\n        \"contentType\": \"Money\",\n        \"value\": 100,\n        \"currency\": \"USD\"\n    },\n    \"name\": \"Редактировать название товара\",\n    \"article\": \"АРТ1\",\n    \"unit\": {\n        \"id\": \"12\",\n        \"contentType\": \"Unit\"\n    }\n}"
+				},
+				"url": {
+					"raw": "https://radio-shop.megaplan.by/api/v3/offer",
+					"protocol": "https",
+					"host": [
+						"radio-shop",
+						"megaplan",
+						"by"
+					],
+					"path": [
+						"api",
+						"v3",
+						"offer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://radio-shop.megaplan.by/api/v3/offer/3395",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "radio-shop.megaplan.by"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "ACCOUNT_URL=https%3A%2F%2Fradio-shop.megaplan.by; _ga=GA1.1.1598834249.1694455984; carrotquest_device_guid=80042670-7c96-4668-9746-fce304cbeda7; carrotquest_realtime_services_transport=wss; carrotquest_uid=779532189195831895; carrotquest_auth_token=user.779532189195831895.28190-57745fbb6640dc43107ea95658.9eec894f2f5a250abdd9029cc05c151109766f29b95e053a; SID2=1695319391_37heb8s2aomt7trjj8x7s; TEST_COOKIE=650c924ad2be4; COOKIEID2=1695322708_hv47nwxj1apyxqg5v1zve; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_hide_all_unread_popups=true; carrotquest_jwt_access=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdHQiOiJhY2Nlc3MiLCJleHAiOjE2OTU0ODAwOTcsImlhdCI6MTY5NTQ3NjQ5NywianRpIjoiOWYxZGQyY2RlNmI0NGVkZjhmYzM5YTRkYmQ4NGUzOGIiLCJhY3QiOiJ3ZWJfdXNlciIsImN0cyI6MTY5NTQ3NjQ5Nywicm9sZXMiOlsidXNlci4kYXBwX2lkOjI4MTkwLiR1c2VyX2lkOjc3OTUzMjE4OTE5NTgzMTg5NSJdLCJhcHBfaWQiOjI4MTkwLCJ1c2VyX2lkIjo3Nzk1MzIxODkxOTU4MzE4OTV9.cb3pAwmjAv6RgLuzvjtb1P5uhI0orv0Su7xxa-j01cQ; ACCOUNTS_INFO=%7B%22accounts%22%3A%7B%22radio-shop.megaplan.by%22%3A%7B%22lastActivityTime%22%3A1695477676%2C%22schemeAndHost%22%3A%22https%3A%5C%2F%5C%2Fradio-shop.megaplan.by%22%7D%7D%7D; carrotquest_session=5ji5htahlurbjpos0gkf23h8v1fuub70; carrotquest_session_started=1; _ga_0DR8DD66PT=GS1.1.1695477593.5.1.1695478225.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://radio-shop.megaplan.by"
+					},
+					{
+						"key": "referer",
+						"value": "https://radio-shop.megaplan.by/offers/filter/all"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-megaplan-app-type",
+						"value": "Web"
+					},
+					{
+						"key": "x-time-zone",
+						"value": "-10800"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"contentType\":\"Offer\",\"tax\":{\"id\":\"2\",\"contentType\":\"Tax\"},\"type\":\"product\",\"attaches\":[],\"price\":{\"contentType\":\"Money\",\"value\":12,\"currency\":\"BYN\",\"valueInMain\":12,\"rate\":1},\"name\":\"2\",\"unit\":{\"id\":\"4\",\"contentType\":\"Unit\"}}"
+				},
+				"url": {
+					"raw": "https://radio-shop.megaplan.by/api/v3/offer/3395",
+					"protocol": "https",
+					"host": [
+						"radio-shop",
+						"megaplan",
+						"by"
+					],
+					"path": [
+						"api",
+						"v3",
+						"offer",
+						"3395"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

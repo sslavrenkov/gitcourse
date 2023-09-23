@@ -1,3 +1,0 @@
-Чек-лист https://docs.google.com/document/d/13JN-fcfVF8oIG7TAzKYZr_LPaFYaeGpe_m3c5HRSriE/edit?usp=sharing
-Чек-лист + тест-кейсы(ru/eng) https://docs.google.com/spreadsheets/d/1H9FMK-TBcG-on_Fb0tXTicq9hzLm7E4epslkF8TUaAw/edit#gid=1133217359
-Баг-репорт https://docs.google.com/document/d/1KQprU7L0i_2NrXQNQ78K7TawSxJx8Bif2FLbP5KRe54/edit?usp=sharing
